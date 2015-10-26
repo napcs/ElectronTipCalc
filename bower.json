@@ -1,0 +1,22 @@
+{
+  "name": "TipCalculator",
+  "description": "A tip calculator written with Electron",
+  "main": "main.js",
+  "authors": [
+    "Brian P. Hogan <brianhogan@napcs.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

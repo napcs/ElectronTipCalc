@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Tip Calculator</h1>
+        </div>
+      </div>
+
+      <form class="form" id="tip_calc">
+        <div class="form-group">
+          <label for="billAmountField">Bill Amount</label>
+          <input class="form-control" type="number" id="billAmountField">
+        </div>
+
+        <div class="form-group">
+          <label for="serviceField">Happiness With Service</label>
+          <input class="form-control" type="range" id="serviceField" min="15" max="30">
+        </div>
+      </form>
+
+      <div class="row">
+        <div class="col-xs-6">
+          <h4>
+            <span class="label label-primary" >Tip</span>
+            $<span id="tip">0</span>
+          </h4>
+        </div>
+        <div class="col-xs-6">
+          <h4>
+            <span class="label label-warning" >Total:</span>
+            $<span id="total">0</span>
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/calculator.js"></script>
+    </body>
+</html>
+

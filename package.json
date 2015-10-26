@@ -1,0 +1,21 @@
+{
+  "name": "TipCalculator",
+  "version": "1.0.0",
+  "description": "A tip calculator written with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron ./",
+    "build": "node_modules/.bin/electron-packager ./ TipCalculator --platform=all --arch=all --version=0.34.1 --out=dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian P. Hogan <brianhogan@napcs.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.6.5",
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.34.1"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
